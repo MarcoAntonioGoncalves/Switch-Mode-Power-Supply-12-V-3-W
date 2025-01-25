@@ -13,7 +13,7 @@ When it comes to DC-DC converters, there are three possible conduction modes: Co
 * ## Dutty Cycle
     $D_{\text{min}} = \frac{V_o}{V_{\text{xMin}}-\Delta V_{\text{Cin}}}$
 * ## Inductor 
-    $\Delta i_{\text{Lo}} = \Delta i_{\text{Lo}\%} \cdot i_{\text{Ro}}$
+    $\Delta i_{\text{Lo}} = \Delta i_{\text{Lo}{\%}} \cdot i_{\text{Ro}}$
 
     $L_o = D_{\text{min}}\left(\frac{V_{\text{peakMin}} - \Delta V_{\text{Cin}} - V_O}{F_s \Delta i_{\text{Lo}}}\right)$
 
