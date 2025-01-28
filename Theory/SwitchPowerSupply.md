@@ -1,0 +1,5 @@
+## Switch Power Supplys
+
+Switching power supplies are electrical devices that convert energy from one form to another using electronic switching, typically with transistors, to control the flow of current. They are highly efficient because they operate at high frequencies, minimizing energy losses and allowing for a compact design. The process involves rectifying alternating current (AC) to direct current (DC), followed by fast switching control and filtering to reduce ripple in the output, using a Dc-Dc Converter.
+
+It's circuit can be simplified into a few main parts. A rectifier, which serves to convert alternating current (AC) into direct current (DC), a DC-DC converter, which reduces the input voltage, and a control circuit, which maintains the output voltage at the desired value and generetes the PWM to the eletronic switch.
