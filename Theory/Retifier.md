@@ -1,6 +1,6 @@
 # Full Wave Retifier
 
-The rectifier used will be the full-wave rectifier with a capacitive filter. The equations used for the design were taken from the book Projeto de Fontes Chaveadas by Ivo Barbi. The simplified analysis method was used, which, although it generates some inconsistencies between the simulated and calculated values, is reliable for the design, mainly because the ripple in the capacitor is less than 20%.
+The design employs a full-wave rectifier with a capacitive filter. The equations for this design were derived from the book Projeto de Fontes Chaveadas by Ivo Barbi. A simplified analysis method was applied, which, while causing slight discrepancies between the simulated and calculated results, remains reliable for the design, especially considering that the ripple in the capacitor is kept under 20%.
 
 # Equations
 
