@@ -10,7 +10,41 @@ I would like to give credit to the book [Projeto de Fontes Chaveadas](https://iv
 
 ## Recomendend order to read the repository
 
-To make the most of this repository, I recommend starting with the theoretical section, followed by the simulations, which provide a comparison between theoretical and simulated results. Next, review the component selection, and finally, explore the obtained results. The hardware folder contains the schematic and board files, along with a 3D image of the PCB, which can be especially useful for those interested in building their own power supply.
+1. **Theory**
+   - Start with the theoretical section to understand the main concepts.
 
-## Requirements
+2. **Simulations**
+   - Review the simulations, which provide a comparison between theoretical and simulated results.
 
+3. **Component Selection**
+   - After the simulations, analyze the component selection.
+
+4. **Results**
+   - Explore the obtained results to understand the actual performance.
+
+5. **Hardware Folder**
+   - The hardware folder contains the following files:
+     - Schematics
+     - PCB files
+     - 3D image of the PCB
+   - These files are especially useful for those interested in building their own power supply.
+
+
+## Specifications
+
+| **Specification**                   | **Description**             |
+|------------------------------------|-----------------------------|
+| **Minimum Input Voltage (V)**      | 110 V                       |
+| **Maximum Input Voltage (V)**      | 233 V                       |
+| **Minimum Peak Voltage (V)**       | 155.56 V                    |
+| **Maximum Peak Voltage (V)**       | 329.51 V                    |
+| **Grid Frequency (Hz)**            | 60 Hz                       |
+| **Output Power (W)**               | 3 W                         |
+| **Output Voltage (V)**             | 12 V                        |
+| **Efficiency**                     | 80%                         |
+| **Rectifier Ripple (%)**           | 5%                          |
+| **Switching Frequency (Hz)**       | 66 kHz                      |
+| **Inductor Ripple (%)**            | 0.25%                       |
+| **Output Voltage Variation (V)**   | 0.01 V                      |
+| **Safety Coefficient**             | 1.25                        |
+| **Ambient Temperature (ºC)**       | 50 ºC                       |
