@@ -34,9 +34,9 @@ The simulation was performed for the minimum input voltage specified. The compon
 ![Current in Load Ro](../images/simulations/BuckConverter/IMosf.png)
 
 ## Doide Do
-### Vo
+### VDo
 ![Voltage in Diode Do](../images/simulations/BuckConverter/Vdo.png)
-### Io
+### IDo
 ![Current in Diode Do](../images/simulations/BuckConverter/Ido.png)
 
 
