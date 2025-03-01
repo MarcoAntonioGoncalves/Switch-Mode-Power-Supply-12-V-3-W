@@ -6,7 +6,7 @@ The simulation was performed for the minimum input voltage specified. The compon
 
 ![Retifier Circuit](../images/simulations/Retifier/Circuit.png)
 
-![Simulation Control](../images/simulations/Retifier/simulation%20control.png)
+![Simulation Control](../images/simulations/Retifier/Simulation%20Control.png)
 
 ## Output
 
