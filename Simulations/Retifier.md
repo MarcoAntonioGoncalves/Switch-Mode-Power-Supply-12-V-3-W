@@ -22,11 +22,11 @@ The simulation was performed for the minimum input voltage specified. The compon
 
 ### VDin
 
-![Voltage in Doide Din](../images/simulations/Retifier/Vdin.png)
+![Voltage in Doide Din](../images/simulations/Retifier/VDin.png)
 
 ### IDin
 
-![Current in Diode Din](../images/simulations/Retifier/IDin.png)
+![Current in Diode Din](../images/simulations/Retifier/Idin.png)
 
 ## Capacitor Cin
 
