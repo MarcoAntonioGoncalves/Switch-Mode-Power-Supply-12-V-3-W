@@ -141,10 +141,14 @@ The information in the table below was extracted from the datasheet. The calcula
       <td>W</td>
     </tr>
     <tr>
-      <td>Switching Power Pcom</td
+      <td>Switching Power Pcom</td>
+      <td>0.144</td>
+      <td>W</td>
+    </tr>
+  </tbody>
+</table>
 
-
-## Equations to Calculte Temperature
+## Equations to Calculate Temperature
 
 $$ T_j = P_{\text{total}} \cdot R_{\text{ja}} + T_a $$
 
@@ -153,6 +157,7 @@ $$ P_{\text{cond}} = R_{\text{ds(on)}} \cdot I_{\text{sRms}}^2 $$
 $$ P_{\text{com}} = \frac{F_s \cdot (T_r + T_f) \cdot I_{\text{sMax}} \cdot V_{\text{peakMin}}}{2} $$
 
 $$ P_{\text{total}} = P_{\text{cond}} + P_{\text{com}} $$
+
 
 
 
