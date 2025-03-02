@@ -32,20 +32,79 @@ The design employs a full-wave rectifier with a capacitive filter. The equations
 
 Analyzing the results, it is evident that the theoretical values closely match the simulated ones, except for the peak current. This discrepancy arises because, in the simplified analysis, the input current is assumed to have a rectangular waveform, whereas in practice, this is not the case. By examining the input current waveform, it becomes clear that it follows a triangular shape, corresponding to a segment of a cosine wave. According to the reference book, the actual peak current can be approximated as twice the theoretical value. In this project, this approximation results in a peak current of 0.490 A, which is remarkably close to the value obtained through simulation. To check the simulation values obtained, go to the  [simulations](../Simulations/Retifier.md) section.
     
-### Rectifier Parameters
 
-| **Parameter**   | **Theoretical** | **Simulation** | **Unit** |
-|---------------|---------------|--------------|---------|
-| Pin          | 3.75          | 3.75         | W       |
-| Capacitance (C) | 26.48         | 26.48        | µF      |
-| Charging Time (tc) | 0.84          | 0.80         | ms      |
-| Peak Current (Ip)  | 0.245         | 0.492        | A       |
-| Effective Output Current (IoutEfc) | 0.025         | 0.026        | A       |
-| Effective Capacitor Current (ICef) | 0.077         | 0.088        | A       |
-| Average Diode Current (IDmed) | 0.0126        | 0.0107       | A       |
-| Effective Diode Current (IDef) | 0.054         | 0.059        | A       |
-| Peak Diode Current (IDp) | 0.245         | 0.493        | A       |
-| Maximum Diode Voltage (Vdmáx) | 329.51        | 329.51       | V       |
+<table align="center">
+  <thead>
+    <tr>
+      <th><strong>Parameter</strong></th>
+      <th><strong>Theoretical</strong></th>
+      <th><strong>Simulation</strong></th>
+      <th><strong>Unit</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pin</td>
+      <td>3.75</td>
+      <td>3.75</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>Capacitance (C)</td>
+      <td>26.48</td>
+      <td>26.48</td>
+      <td>µF</td>
+    </tr>
+    <tr>
+      <td>Charging Time (tc)</td>
+      <td>0.84</td>
+      <td>0.80</td>
+      <td>ms</td>
+    </tr>
+    <tr>
+      <td>Peak Current (Ip)</td>
+      <td>0.245</td>
+      <td>0.492</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Effective Output Current (IoutEfc)</td>
+      <td>0.025</td>
+      <td>0.026</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Effective Capacitor Current (ICef)</td>
+      <td>0.077</td>
+      <td>0.088</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Average Diode Current (IDmed)</td>
+      <td>0.0126</td>
+      <td>0.0107</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Effective Diode Current (IDef)</td>
+      <td>0.054</td>
+      <td>0.059</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Peak Diode Current (IDp)</td>
+      <td>0.245</td>
+      <td>0.493</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Maximum Diode Voltage (Vdmáx)</td>
+      <td>329.51</td>
+      <td>329.51</td>
+      <td>V</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
