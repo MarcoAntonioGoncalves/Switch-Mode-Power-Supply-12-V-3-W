@@ -1,10 +1,10 @@
-# Buck Conveter
+<h1 align="center">Buck Converter</h1>
 
 The non-isolated Buck Forward converter is a step-down voltage converter. It uses an electronic switch controlled by a PWM signal, and a combination of a diode and an inductor to decrease the output voltage in relation to the input. As the name suggests, there is no galvanic isolation between the power supply and the output of the circuit.
 
 When it comes to DC-DC converters, there are three possible conduction modes: Continuous Conduction Mode (CCM), Discontinuous Conduction Mode (DCM), and Critical Conduction Mode (CRM), which refer to the current in the inductor. In CCM, the current never reaches zero; in CRM, the current reaches zero at the end of the cycle but quickly rises again; in DCM, the current in the inductor reaches zero and stays there for part of the cycle. Each mode leads to a different analysis of the circuit, causing the design equations to vary depending on the conduction mode used. For this project, Continuous Conduction Mode (CCM) will be considered.
 
-# Equations
+<h1 align="center">Equations</h1>
 
 * ## Load Ro
   
@@ -49,7 +49,7 @@ $$i_{\text{DoRms}} = \sqrt{(1-D_{\text{min}}) \left( \frac{\Delta i_{\text{Lo}}^
 
 $$V_{\text{DoMax}} = -V_{\text{peakMax}}$$
 
-# Theorical Results X Simulation Results
+<h1 align="center">Theoretical Results X Simulation Results</h1>
 
 The theoretical results were very close to those obtained through simulation, proving the quality of the methodology used in this project. To check the simulation values obtained, go to the [simulations](../Simulations/BuckConverter.md) section.
 
