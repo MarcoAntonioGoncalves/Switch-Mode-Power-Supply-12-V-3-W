@@ -48,7 +48,7 @@ When it comes to DC-DC converters, there are three possible conduction modes: Co
 
 # Theorical Results X Simulation Results
 
-The theoretical results were very close to those obtained through simulation, proving the quality of the methodology used in this project. To check the simulation values obtained, go the [simulations](./Simulations) section.
+The theoretical results were very close to those obtained through simulation, proving the quality of the methodology used in this project. To check the simulation values obtained, go the [simulations](../Simulations/BuckConverter.md) section.
 
 | **Parameter**                          | **Theoretical** | **Simulation** | **Unit**  |
 |----------------------------------------|---------------|--------------|---------|
