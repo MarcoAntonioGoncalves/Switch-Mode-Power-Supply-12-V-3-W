@@ -2,8 +2,7 @@
 
 ## Circuit
 
-The simulation was performed for the minimum input voltage specified. The component values calculated were based on theoretical calculations. However, since components rarely come in exact values, the final simulation will display the components that will actually be used in the implementation.
-
+The simulation was performed for the minimum input voltage specified. The component values calculated were based on theoretical calculations.
 ![Retifier Circuit](../images/simulations/Retifier/Circuit.png)
 
 ![Simulation Control](../images/simulations/Retifier/Simulation%20Control.png)

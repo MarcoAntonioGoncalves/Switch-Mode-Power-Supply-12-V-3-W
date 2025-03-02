@@ -2,7 +2,7 @@
 
 ## Circuit
 
-The simulation was performed for the minimum input voltage specified. The component values calculated were based on theoretical calculations. However, since components rarely come in exact values, the final simulation will display the components that will actually be used in the implementation.
+The simulation was performed for the minimum input voltage specified. The component values calculated were based on theoretical calculations. 
 
 
 ![Buck Conversor Circuit](../images/simulations/BuckConverter/Circuit.png)

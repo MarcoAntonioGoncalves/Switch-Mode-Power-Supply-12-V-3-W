@@ -1,5 +1,0 @@
-# Simulations
-
-Simulating circuits plays a crucial role in the design and development of electronic systems. It allows engineers to model and analyze the behavior of their circuits before building the actual hardware, saving both time and resources. Simulations help to identify potential issues, optimize circuit performance, and ensure that the design meets the desired specifications.
-
-In this project, the software used for circuit simulation is PSIM. PSIM is a powerful simulation tool widely used in the field of power electronics. It provides an intuitive interface and robust features for simulating complex circuits, enabling detailed analysis of voltage, current, and power waveforms. PSIM's capabilities allow for efficient testing and refinement of the circuit design in a virtual environment, ensuring that the final hardware will perform as expected in real-world conditions.
