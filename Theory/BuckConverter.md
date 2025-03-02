@@ -7,7 +7,7 @@ When it comes to DC-DC converters, there are three possible conduction modes: Co
 # Equations
 
 * ## Load Ro
-    $$R_o = \frac{V_o^2}{P_o}$$
+    $$ R_o = \frac{V_o^2}{P_o} $$
 
     $$i_{\text{Ro}} = \frac{V_o}{R_o}$$
 * ## Dutty Cycle
