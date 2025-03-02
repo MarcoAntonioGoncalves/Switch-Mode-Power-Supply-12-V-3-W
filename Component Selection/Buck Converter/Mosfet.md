@@ -35,13 +35,13 @@ To verify whether the current will be a problem for using this IC, it is necessa
 
 Through first figure, it can be observed that two points are provided: (95;450) and (610;508). The point on the X-axis represents the calculated di/dt, while the point on the Y-axis represents the maximum di/dt that will trigger the protection circuit. These points were chosen because they cover the worst-case scenario for the operation of the LNK306. It can be seen in the figure that the curve is a straight line, and with two points from this line, it is possible to find the equation that represents it. The equation and the resulting maximum current limit are shown below:
 
-$
+$$
 \frac{di}{dt_{\text{máx}}} = 0,1126 \cdot \frac{di}{dt_{\text{calc}}} + 439,30
-$
+$$
 
-$
+$$
 \frac{di}{dt_{\text{máx}}} = 455,61 \, \text{mA/μs}
-$
+$$
 
 
 It is evident that the obtained value is significantly higher than the previously calculated value, allowing the internal MOSFET of the IC to conduct the required current for the operation of the switch-mode power supply without triggering the protection circuit.
