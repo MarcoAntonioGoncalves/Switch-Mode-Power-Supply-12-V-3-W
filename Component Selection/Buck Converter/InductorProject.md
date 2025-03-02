@@ -92,6 +92,7 @@ The air gap refers to the distance between the legs of the magnetic core. Below 
 The air gap is added mainly for two reasons. Without it, the inductance is only proportional to the magnetic permeability of the core, which can easily change due to temperature and operating point. Adding an air gap introduces a reluctance, which is the opposition to the passage of magnetic flux, much higher, making the inductance value less influenced by variations in the core's permeability. The other reason is that it allows the inductor to operate with higher currents in the winding without the core reaching saturation.
 
 The distance of the air gap can be calculated using the expression below:
+
 $$ \text{AirGap} = \frac{N^2 \cdot A_e \cdot \mu_o}{L_o} $$
 
 The new parameter that appears in the equation is the magnetic permeability of air, which has the known value of $4\pi \times 10^{-7}$. By calculating the air gap distance, the obtained value is 0.07 millimeters.
@@ -109,7 +110,7 @@ This equation provides the result in centimeters and uses only the switching fre
 The book *Projeto de Fontes Chaveadas* by Professor Ivo Barbi provides a table with relevant information about enamel-coated wires.
 
 <p align="center">
-  <img src="/images/components/Indutor/Wires.png.png" alt="enamel-coated wires">
+  <img src="/images/components/Indutor/Wires.png" alt="enamel-coated wires">
 </p>
 
 It is possible to observe the copper diameter in the second column of the table. For this project, the chosen enamel-coated wire is AWG 26.
@@ -142,7 +143,7 @@ According to Ivo Barbi, the magnetic losses are related to hysteresis and can be
 
 $$ P = \Delta B^{2.4} \cdot (K_h \cdot f_s + K_f \cdot F_s^2) \cdot Volume_{\text{core}} $$
 
-In this equation, there are some parameters that have not yet been presented in this document, which are $K_h$, $K_f$, and the volume of the core. The values of $K_h$ and $K_f$ are respectively $4 \times 10^{-5}$ and $4 \times 10^{-10}$. These values were taken from Ivo Barbi's material, and according to him, they are standard values for Thornton cores. The core volume is taken from the datasheet, with a value of $1.34 \, \text{cm}^3$. The expression results in $0.472 \, \text{W}$.
+In this equation, there are some parameters that have not yet been presented in this document, which are $K_h$, $K_f$, and the volume of the core. The values of $K_h$ and $K_f$ are respectively $4 \times 10^{-5}$ and $4 \times 10^{-10}$. These values were taken from Ivo Barbi's material, and according to him, they are standard values for Thornton cores. The core volume is taken from the datasheet, with a value of $1.34 \, \text{cm}^3$. The expression results in $0.472 \ \text{W}$.
 
 ### Total losses
 
