@@ -28,7 +28,7 @@ For the switched-mode power supply circuit, commercial component values were use
 
 ## Capacitor Co
 ### VCo
-![Voltage in Capacitor Co](../images/simulations/SwitchPowerSupply/Vco.png)
+![Voltage in Capacitor Co](../images/simulations/SwitchPowerSupply/VCo.png)
 ### ICo
 ![Current in Capacitor Co](../images/simulations/SwitchPowerSupply/ICo.png)
 
@@ -40,7 +40,7 @@ For the switched-mode power supply circuit, commercial component values were use
 
 ## Doide Do
 ### VDo
-![Voltage in Diode Do](../images/simulations/SwitchPowerSupply/Vdo.png)
+![Voltage in Diode Do](../images/simulations/SwitchPowerSupply/VDo.png)
 ### IDo
 ![Current in Diode Do](../images/simulations/SwitchPowerSupply/IDo.png)
 
