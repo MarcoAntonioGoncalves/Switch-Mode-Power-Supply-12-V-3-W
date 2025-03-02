@@ -72,6 +72,8 @@ The most important parameters are in the table below:
   </tbody>
 </table>
 
+It is evident that the component's datasheet values satisfy the calculated values.
+
 ## Thermical Calculation
 
 Just like the MOSFET, the thermal calculation of the diode is necessary to verify if its junction temperature during operation does not exceed the maximum value defined by the datasheet. To do this, some information such as the voltage at the operating point and the diode resistance is required, along with the energy stored in the parasitic capacitance. The datasheet and some equations will be used to obtain these parameters.
@@ -125,6 +127,31 @@ $$ P_{\text{total}} = P_{\text{cond}} + P_{\text{bloq}} $$
       <td>Diode Resistance</td>
       <td>0.4</td>
       <td>Ω</td>
+    </tr>
+    <tr>
+      <td>di/dt</td>
+      <td>-4490</td>
+      <td>A/s</td>
+    </tr>
+    <tr>
+      <td>Qrr</td>
+      <td>8.42</td>
+      <td>nC</td>
+    </tr>
+    <tr>
+      <td>Conduction Power (Pcond)</td>
+      <td>0.298</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>Blocking Power (Pbloq)</td>
+      <td>1.83E-04</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>Total Power</td>
+      <td>0.299</td>
+      <td>W</td>
     </tr>
   </tbody>
 </table>
