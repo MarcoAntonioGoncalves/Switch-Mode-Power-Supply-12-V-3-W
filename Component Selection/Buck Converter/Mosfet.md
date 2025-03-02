@@ -8,10 +8,11 @@ This IC contains an internal MOSFET and a PWM pulse generator, as well as a clos
 
 It is necessary to verify if the internal MOSFET can support a drain-to-source voltage higher than the calculated value for the worst-case scenario, as well as whether it can safely conduct the current required for the operation of the power supply.
 
-Unlike usual, this IC does not provide the drain current that the switch can conduct in its datasheet. Instead, it provides the current variation rate that will trigger the overcurrent protection circuit. Therefore, to verify if the IC is suitable for use in the power supply, it is necessary to calculate the variaton rate of the current and use the datasheet information for verification. It is calculated using the equation below:
-
+Unlike usual, this IC does not provide the drain current that the switch can conduct in its datasheet. Instead, it provides the current variation rate that will trigger the overcurrent protection circuit. Therefore, to verify if the IC is suitable for use in the power supply, it is necessary to calculate the variation rate of the current and use the datasheet information for verification. It is calculated using the equation below:
 
 $$\frac{di}{dt} = \frac{V_{\text{peakMax}} - \Delta V_{\text{Cin}} - V_o}{L_o}$$
+
+<div style="text-align:center">
 
 | **Parameter**             | **Value**   | **Unit**         |
 |---------------------------|-------------|------------------|
@@ -21,15 +22,23 @@ $$\frac{di}{dt} = \frac{V_{\text{peakMax}} - \Delta V_{\text{Cin}} - V_o}{L_o}$$
 | **RMS Current**            | 0.089      | A                |
 | **Di/Dt**                  | 144.85     | mA/µs            |
 
+</div>
 
 It should be noted that the values are higher than they would typically be because a safety coefficient of 1.25 was applied, making the design more reliable and secure.
 
-![Absolute Max Ratings](/images/components/Mosfet/AbsoluteMaxRatings.png)
+<div style="text-align:center">
+    <img src="/images/components/Mosfet/AbsoluteMaxRatings.png" alt="Absolute Max Ratings" />
+</div>
 
 It can be observed in the datasheet of the IC that its internal MOSFET has a maximum voltage rating of 700 V, which is more than sufficient for the project. Regarding the current, it will be necessary to refer to the figures below.
 
-![Normalized Current Limit](/images/components/Mosfet/NormalizedCurrentLimit.png)
-![Circuit Protection](/images/components/Mosfet/CircuitProtection.png)
+<div style="text-align:center">
+    <img src="/images/components/Mosfet/NormalizedCurrentLimit.png" alt="Normalized Current Limit" />
+</div>
+
+<div style="text-align:center">
+    <img src="/images/components/Mosfet/CircuitProtection.png" alt="Circuit Protection" />
+</div>
 
 To verify whether the current will be a problem for using this IC, it is necessary to calculate the di/dt in the MOSFET, which has already been done above, and check the resulting current limit value. If the current limit is lower than the calculated value, it means that the IC cannot be used.
 
