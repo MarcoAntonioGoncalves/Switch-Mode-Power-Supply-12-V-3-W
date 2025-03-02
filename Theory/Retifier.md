@@ -27,8 +27,25 @@ The design employs a full-wave rectifier with a capacitive filter. The equations
 * ## Max Diode Reverse Tension
     $V_{\text{dMax}} = V_{\text{peakMax}}$
 
-    
 
+# Theorical Results X Simulation Results
+
+Analyzing the results, it is evident that the theoretical values closely match the simulated ones, except for the peak current. This discrepancy arises because, in the simplified analysis, the input current is assumed to have a rectangular waveform, whereas in practice, this is not the case. By examining the input current waveform, it becomes clear that it follows a triangular shape, corresponding to a segment of a cosine wave. According to the reference book, the actual peak current can be approximated as twice the theoretical value. In this project, this approximation results in a peak current of 0.490 A, which is remarkably close to the value obtained through simulation. To check the simulation values obtained, go to the  [simulations](../Simulations/Retifier.md) section.
+    
+### Rectifier Parameters
+
+| **Parameter**   | **Theoretical** | **Simulation** | **Unit** |
+|---------------|---------------|--------------|---------|
+| Pin          | 3.75          | 3.75         | W       |
+| Capacitance (C) | 26.48         | 26.48        | µF      |
+| Charging Time (tc) | 0.84          | 0.80         | ms      |
+| Peak Current (Ip)  | 0.245         | 0.492        | A       |
+| Effective Output Current (IoutEfc) | 0.025         | 0.026        | A       |
+| Effective Capacitor Current (ICef) | 0.077         | 0.088        | A       |
+| Average Diode Current (IDmed) | 0.0126        | 0.0107       | A       |
+| Effective Diode Current (IDef) | 0.054         | 0.059        | A       |
+| Peak Diode Current (IDp) | 0.245         | 0.493        | A       |
+| Maximum Diode Voltage (Vdmáx) | 329.51        | 329.51       | V       |
 
 
 
