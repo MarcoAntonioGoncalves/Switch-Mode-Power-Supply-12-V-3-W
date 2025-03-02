@@ -32,19 +32,19 @@ I would like to give credit to the book [Projeto de Fontes Chaveadas](https://iv
 
 ## Specifications
 
-| **Specification**                   | **Description**             |
-|------------------------------------|-----------------------------|
-| **Minimum Input Voltage (V)**      | 110 V                       |
-| **Maximum Input Voltage (V)**      | 233 V                       |
-| **Minimum Peak Voltage (V)**       | 155.56 V                    |
-| **Maximum Peak Voltage (V)**       | 329.51 V                    |
-| **Grid Frequency (Hz)**            | 60 Hz                       |
-| **Output Power (W)**               | 3 W                         |
-| **Output Voltage (V)**             | 12 V                        |
-| **Efficiency**                     | 80%                         |
-| **Rectifier Ripple (%)**           | 5%                          |
-| **Switching Frequency (Hz)**       | 66 kHz                      |
-| **Inductor Ripple (%)**            | 0.25%                       |
-| **Output Voltage Variation (V)**   | 0.01 V                      |
-| **Safety Coefficient**             | 1.25                        |
-| **Ambient Temperature (ºC)**       | 50 ºC                       |
+| **Specification**                   | **Description**             | **Unit**  |
+|------------------------------------|-----------------------------|---------|
+| **Minimum Input Voltage**          | 110                         | V       |
+| **Maximum Input Voltage**          | 233                         | V       |
+| **Minimum Peak Voltage**           | 155.56                      | V       |
+| **Maximum Peak Voltage**           | 329.51                      | V       |
+| **Grid Frequency**                 | 60                          | Hz      |
+| **Output Power**                   | 3                           | W       |
+| **Output Voltage**                 | 12                          | V       |
+| **Efficiency**                     | 80                          | %       |
+| **Rectifier Ripple**               | 5                           | %       |
+| **Switching Frequency**            | 66                          | kHz     |
+| **Inductor Ripple**                | 0.25                        | %       |
+| **Output Voltage Variation**       | 0.01                        | V       |
+| **Safety Coefficient**             | 1.25                        | -       |
+| **Ambient Temperature**            | 50                          | ºC      |

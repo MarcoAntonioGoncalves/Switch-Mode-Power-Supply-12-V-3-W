@@ -46,4 +46,28 @@ When it comes to DC-DC converters, there are three possible conduction modes: Co
     $V_{\text{DoMax}} = -V_{\text{peakMax}}$
 
 
+# Theorical Results X Simulation Results
 
+The theoretical results were very close to those obtained through simulation, proving the quality of the methodology used in this project. To check the simulation values obtained, go the [simulations](./Simulations) section.
+
+| **Parameter**                          | **Theoretical** | **Simulation** | **Unit**  |
+|----------------------------------------|---------------|--------------|---------|
+| Load Voltage Ro                        | 12            | 11.97        | V       |
+| Load Average Current Io                | 0.25          | 0.249        | A       |
+| Minimum Duty Cycle                      | 0.081         | X            | -       |
+| Inductor Current Ripple                 | 0.062         | 0.060        | A       |
+| Inductor Inductance Lo                  | 2.670         | X            | mH      |
+| Inductor RMS Current                    | 0.250         | 0.249        | A       |
+| Inductor Maximum Current                | 0.281         | 0.280        | A       |
+| Inductor Average Current                | 0.250         | 0.249        | A       |
+| Output Voltage Ripple                   | 0.120         | 0.09         | V       |
+| Output Capacitance Co                   | 1.280         | X            | µF      |
+| Capacitor RMS Current                   | 0.018         | 0.018        | A       |
+| Switch Maximum Current S                | 0.281         | 0.280        | A       |
+| Switch Average Current S                | 0.020         | 0.020        | A       |
+| Switch RMS Current S                    | 0.071         | 0.071        | A       |
+| Switch Maximum Voltage                  | 329.511       | 329.51       | V       |
+| Diode Maximum Current Do                | 0.281         | 0.280        | A       |
+| Diode Average Current Do                | 0.229         | 0.229        | A       |
+| Diode RMS Current Do                    | 0.240         | 0.239        | A       |
+| Diode Maximum Voltage                   | -329.511      | -329.51      | V       |
