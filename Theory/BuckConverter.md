@@ -14,40 +14,40 @@ $$i_{\text{Ro}} = \frac{V_o}{R_o}$$
 
 * ## Dutty Cycle
   
-    $$D_{\text{min}} = \frac{V_o}{V_{\text{xMin}}-\Delta V_{\text{Cin}}}$$
+$$D_{\text{min}} = \frac{V_o}{V_{\text{xMin}}-\Delta V_{\text{Cin}}}$$
 
 * ## Inductor 
-    $$\Delta i_{\text{Lo}} = \Delta i_{\text{LoPercentage}} \cdot i_{\text{Ro}}$$
+$$\Delta i_{\text{Lo}} = \Delta i_{\text{LoPercentage}} \cdot i_{\text{Ro}}$$
 
-    $$L_o = D_{\text{min}}\left(\frac{V_{\text{peakMin}} - \Delta V_{\text{Cin}} - V_O}{F_s \Delta i_{\text{Lo}}}\right)$$
+$$L_o = D_{\text{min}}\left(\frac{V_{\text{peakMin}} - \Delta V_{\text{Cin}} - V_O}{F_s \Delta i_{\text{Lo}}}\right)$$
 
-    $$i_{\text{LoMax}} = i_{\text{Ro}} \cdot \Delta i_{\text{Lo}}^2$$
+$$i_{\text{LoMax}} = i_{\text{Ro}} \cdot \Delta i_{\text{Lo}}^2$$
 
-    $$i_{\text{LoMed}} = i_{\text{Ro}}$$
+$$i_{\text{LoMed}} = i_{\text{Ro}}$$
 
-    $$i_{\text{LoRms}} = \sqrt{\frac{\Delta i_{\text{Lo}}^2 + 12 i_{\text{Ro}}^2}{12}}$$
+$$i_{\text{LoRms}} = \sqrt{\frac{\Delta i_{\text{Lo}}^2 + 12 i_{\text{Ro}}^2}{12}}$$
 * ## Capacitor Co
-    $$\Delta V_o = \Delta V_{\text{VoPercentage}}\cdot V_o$$
+$$\Delta V_o = \Delta V_{\text{VoPercentage}}\cdot V_o$$
 
-    $$C_o = \frac{2 \Delta i_{\text{Lo}} D_{\text{min}}}{\Delta V_o F_s}$$
+$$C_o = \frac{2 \Delta i_{\text{Lo}} D_{\text{min}}}{\Delta V_o F_s}$$
 
-    $$i_{\text{CoRms}} = \sqrt{\frac{\Delta i_{\text{Lo}}^2}{12}}$$
+$$i_{\text{CoRms}} = \sqrt{\frac{\Delta i_{\text{Lo}}^2}{12}}$$
 * ## Eletronic Switch
-    $$i_{\text{sMax}} = i_{\text{Ro}} + \frac{\Delta i_{\text{Lo}}}{2}$$
+$$i_{\text{sMax}} = i_{\text{Ro}} + \frac{\Delta i_{\text{Lo}}}{2}$$
 
-    $$i_{\text{sMed}} = i_{\text{Ro}} \cdot D_{\text{min}}$$
+$$i_{\text{sMed}} = i_{\text{Ro}} \cdot D_{\text{min}}$$
 
-    $$i_{\text{sRms}} = \sqrt{D_{\text{min}} \left( \frac{\Delta i_{\text{Lo}}^2 + 12 i_{\text{Ro}}^2}{12} \right)}$$
+$$i_{\text{sRms}} = \sqrt{D_{\text{min}} \left( \frac{\Delta i_{\text{Lo}}^2 + 12 i_{\text{Ro}}^2}{12} \right)}$$
 
-    $$V_{\text{sMax}} = V_{\text{peakMax}}$$
+$$V_{\text{sMax}} = V_{\text{peakMax}}$$
 * ## Diode Do
-    $$i_{\text{DoMax}} = i_{\text{Ro}} + \frac{\Delta i_{\text{Lo}}}{2}$$
+$$i_{\text{DoMax}} = i_{\text{Ro}} + \frac{\Delta i_{\text{Lo}}}{2}$$
 
-    $$i_{\text{DoMed}} = i_{\text{Ro}} \cdot (1 - D_{\text{min}})$$
+$$i_{\text{DoMed}} = i_{\text{Ro}} \cdot (1 - D_{\text{min}})$$
 
-    $$i_{\text{DoRms}} = \sqrt{(1-D_{\text{min}}) \left( \frac{\Delta i_{\text{Lo}}^2 + 12 i_{\text{Ro}}^2}{12} \right)}$$
+$$i_{\text{DoRms}} = \sqrt{(1-D_{\text{min}}) \left( \frac{\Delta i_{\text{Lo}}^2 + 12 i_{\text{Ro}}^2}{12} \right)}$$
 
-    $$V_{\text{DoMax}} = -V_{\text{peakMax}}$$
+$$V_{\text{DoMax}} = -V_{\text{peakMax}}$$
 
 # Theorical Results X Simulation Results
 
