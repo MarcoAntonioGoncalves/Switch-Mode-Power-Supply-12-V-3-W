@@ -7,15 +7,15 @@ When it comes to DC-DC converters, there are three possible conduction modes: Co
 # Equations
 
 * ## Load Ro
-* 
+  
     $$R_o = \frac{V_o^2}{P_o}$$
 
     $$i_{\text{Ro}} = \frac{V_o}{R_o}$$
 
 * ## Dutty Cycle
-* 
+  
     $$D_{\text{min}} = \frac{V_o}{V_{\text{xMin}}-\Delta V_{\text{Cin}}}$$
-    
+
 * ## Inductor 
     $$\Delta i_{\text{Lo}} = \Delta i_{\text{LoPercentage}} \cdot i_{\text{Ro}}$$
 
