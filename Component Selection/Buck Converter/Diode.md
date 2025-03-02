@@ -156,4 +156,43 @@ $$ P_{\text{total}} = P_{\text{cond}} + P_{\text{bloq}} $$
   </tbody>
 </table>
 
-It is evident that the junction temperature is much lower than the maximum temperature, even when considering the safety factor. Therefore, it can be stated that the UF4007 diode is suitable for operation.
+With the necessary information gathered, it is now possible to calculate the junction temperature of the diode without the presence of a heatsink. The table below contains the required information for the calculation, which was taken from figure X. The equation that gives the junction temperature is exactly the same as the one used for the MOSFET.
+
+<table align="center">
+  <thead>
+    <tr>
+      <th><strong>Parameter</strong></th>
+      <th><strong>Value</strong></th>
+      <th><strong>Unit</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Maximum Junction Temperature</td>
+      <td>150</td>
+      <td>°C</td>
+    </tr>
+    <tr>
+      <td>Maximum Junction Temperature (C.S)</td>
+      <td>112.5</td>
+      <td>°C</td>
+    </tr>
+    <tr>
+      <td>Ambient Temperature</td>
+      <td>50</td>
+      <td>°C</td>
+    </tr>
+    <tr>
+      <td>Junction-to-Ambient Resistance</td>
+      <td>60</td>
+      <td>°C</td>
+    </tr>
+    <tr>
+      <td>Junction Temperature Without Heatsink</td>
+      <td>67.90</td>
+      <td>°C</td>
+    </tr>
+  </tbody>
+</table>
+
+It is clear that the junction temperature is well below the maximum temperature, even when considering the safety factor. Therefore, it can be concluded that the UF4007 diode is suitable for operation.
