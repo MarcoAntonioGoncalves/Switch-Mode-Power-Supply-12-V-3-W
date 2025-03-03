@@ -13,5 +13,5 @@ To select the varistor, it is necessary to consider the maximum RMS operating vo
 The chosen component is the S05K300, which has a nominal voltage of 300 V, providing a sufficient margin even with the applied safety coefficient.
 
 <p align="center">
-  <img src="/imges/components/Varistor/Varistor.png" alt="Varistor">
+  <img src="/images/components/Varistor/Varistor.png" alt="Varistor">
 </p>
