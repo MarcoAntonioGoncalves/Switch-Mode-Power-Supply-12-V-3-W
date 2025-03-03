@@ -8,5 +8,5 @@ An image of the selected fuse follows bellow:
 
 
 <p align="center">
-  <img src="/images/components/Fuse/Fuse.png" alt="UF4007 specification">
+  <img src="/images/components/Fuse/Fuse.png" alt="Fuse Image">
 </p>
