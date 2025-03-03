@@ -16,7 +16,7 @@ It is observed that a Nichicon 10 µF 400V capacitor can withstand an RMS curren
 
 Unfortunately, the datasheet does not provide information on the equivalent series resistance (ESR) for capacitors with a nominal voltage above 100V. Therefore, for loss calculations, the ESR value for a 10 µF 100V capacitor will be used, which is 1.8 Ω.
 
-Since the three capacitors are in parallel, the current will be evenly divided among them, and each capacitor will experience the same power dissipation. The formulas for this calculation have already been discussed in the previous chapter.
+Since the three capacitors are in parallel, the current will be evenly divided among them, and each capacitor will experience the same power dissipation. The formulas for this calculation have already been discussed in buck converter section.
 
 <table align="center">
   <thead>
