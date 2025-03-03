@@ -6,3 +6,14 @@ The objective was to design hardware that could be manufactured in a DIY manner,
 
 The method used for fabrication was the photographic method, which involves coating the copper board with photo-sensitive paint and transferring the circuit using ultraviolet light.
 
+Below are images of the top and bottom layers of the PCB after fabrication. Unfortunately, the solder mask on the bottom layer had some defects, but it still served its purpose of facilitating the soldering process.
+
+<p align="center">
+  <img src="/images/PCB/PcbTop.png" alt="Pcb Top">
+</p>
+
+<p align="center">
+  <img src="/images/PCB/PcbBottom.png" alt="Pcb Bottom">
+</p>
+
+
