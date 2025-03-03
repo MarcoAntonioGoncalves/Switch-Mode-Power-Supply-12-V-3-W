@@ -51,3 +51,5 @@ As discussed in the buck converter section, the curve above is important for obt
     </tr>
   </tbody>
 </table>
+
+It is possibile to see that the chosen component has greater limits then the calculated above.
