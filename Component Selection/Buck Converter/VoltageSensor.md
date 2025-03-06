@@ -6,4 +6,4 @@ The LKN-306 IC operates as a closed-loop control system, with feedback from the 
   <img src="/images/components/LNK/LNKCircuit.png" alt="Datasheet Circuit">
 </p>
 
-The datasheet recommends adding a diode and a capacitor with the same specifications to replicate the output voltage to the voltage divider. The voltage divider results in R1 being 13.8 kΩ and R2 being 2.2 kΩ. A 10kΩ potentiometer will be used for R1, allowing the output voltage of the power supply to be adjustable.
+A diode and capacitor are added to replicate the output voltage in the voltage divider, it was used the same components from the Buck Converter. The voltage divider results in R1 being 13.8 kΩ and R2 being 2.2 kΩ. A 10kΩ potentiometer will be used for R1, allowing the output voltage of the power supply to be adjustable.
