@@ -2,7 +2,7 @@
 
 Inductors are crucial components for the operation of a DC-DC converter. When operating at high frequencies, these components can exhibit a range of non-idealities, potentially leading to undesirable results such as voltage spikes, high losses, and noise emission.
 
-Unlike other components, the inductor will not be purchased as a finished product but rather constructed from an EE-type ferrite core and enameled copper wire. The design equations were taken from a paper guided by Professor Ivo Barbi, which shows how to build magnetic elements for high-frequency operation.
+Unlike other components, the inductor will not be purchased as a finished product but rather constructed from an EE-type ferrite core and enameled copper wire. The design equations were taken from a paper guided by Professor Ivo Barbi called:[Projeto Físico de Indutores e Transformadores](https://professorpetry.com.br/Bases_Dados/Apostilas_Tutoriais/Apostila_Projeto_Fisico_De_Magneticos.pdf), which shows how to build magnetic elements for high-frequency operation.
 
 This section will discuss the selection of the magnetic core, the choice of the enameled copper wire type, and the necessary parameters for the construction of the inductor. It is important to note that the inductance of the inductor was previously calculated and should be 2.670 mH.
 
