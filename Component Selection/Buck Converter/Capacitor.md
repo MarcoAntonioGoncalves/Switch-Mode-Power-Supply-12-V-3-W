@@ -31,6 +31,8 @@ The capacitor Co must be capable of handling the effective current it will be su
   </tbody>
 </table>
 
+It should be noted that the values are higher than they would typically be because a safety coefficient of 1.25 was applied, making the design more reliable and secure.
+
 ## Selection
 
 The AX series capacitors are well-suited for high-frequency operation, making them an ideal choice for Co. Since the calculated capacitance value is not commercially available, a higher standard value of 22 µF, 50V will be used. Below is the SANYO catalog containing detailed specifications for the selected capacitor. The chosen component is in the third line of the table.
