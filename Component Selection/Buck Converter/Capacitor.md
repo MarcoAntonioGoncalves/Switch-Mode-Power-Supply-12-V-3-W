@@ -4,11 +4,32 @@ The capacitor Co must be capable of handling the effective current it will be su
 
 ## Calculated Parameters for the Capacitor
 
-| **Parameter**       | **Value** | **Unit** |
-|--------------------|---------|---------|
-| $i_{\text{CoRms}}$ | 0.022   | A       |
-| Voltage Rating   | 15      | V       |
-| Capacitance     | 1.28    | µF      |
+<table align="center">
+  <thead>
+    <tr>
+      <th><strong>Parameter</strong></th>
+      <th><strong>Value</strong></th>
+      <th><strong>Unit</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$i_{\text{CoRms}}$</td>
+      <td>0.022</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Voltage Rating</td>
+      <td>15</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>Capacitance</td>
+      <td>1.28</td>
+      <td>µF</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Selection
 
