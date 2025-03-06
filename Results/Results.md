@@ -66,17 +66,11 @@ The voltage across the diode behaved as anticipated, conducting during one half-
 
 The rectifier output voltage exhibited a ripple of 5.85%, slightly higher than the design target of 5%. The ripple was calculated by observing only the image of Vx, which shows a different maximum voltage compared to the maximum voltage in the Vin image, likely due to the oscilloscope’s timebase settings during the measurements.
 
-$$
-\% \text{Ripple} = \left( \frac{V_{\text{ripple}}}{V_{\text{DC}}} \right) \times 100
-$$
+$$ \% \text{Ripple} = \left( \frac{V_{\text{ripple}}}{V_{\text{DC}}} \right) \times 100 $$
 
-$$
-V_{\text{ripple}} = V_{\text{max}} - V_{\text{min}}
-$$
+$$ V_{\text{ripple}} = V_{\text{max}} - V_{\text{min}} $$
 
-$$
-V_{\text{DC}} = \frac{V_{\text{max}} + V_{\text{min}}}{2}
-$$
+$$ V_{\text{DC}} = \frac{V_{\text{max}} + V_{\text{min}}}{2} $$
 
 In the Buck converter, the MOSFET voltage waveform matched expectations, showing that most of the time the MOSFET is not conducting. This is expected since the converter's gain is relatively small.
 
