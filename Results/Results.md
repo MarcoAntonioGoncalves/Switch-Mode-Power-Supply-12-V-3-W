@@ -82,6 +82,6 @@ The waveform of the voltage across the inductor exhibited the correct shape: whe
 
 This discrepancy is due to the on/off control method of the LNK306 IC, which causes the MOSFET to remain off for several cycles. As a result, the converter frequency is lower than 66 kHz during certain periods.
 
-Although the IC shows some flaws in its control method, the power supply still performed satisfactorily.
+The output voltage of the power supply is measured at a mean value of 11.9V, which is very close to the designed value, with an average current of 0.238 A. This results in a power output of approximately 2.83 W, slightly less than the targeted 3 W. This discrepancy can be attributed to practical losses not accounted for in the theoretical calculations, such as losses in the PCB traces, cables, and the NTC resistor. Additionally, component tolerance and error factors may contribute to a higher actual power dissipation than what was calculated theoretically.
 
-Unfortunately, shunt resistors were not placed on the board to measure currents in the components, which would be an interesting addition for future projects.
+Although the IC exhibits some limitations in its control method, such as its on/off regulation, which affects the switching frequency, the power supply has still demonstrated satisfactory performance. The observed deviations, like the lower than expected frequency and minor ripple in the output voltage, do not significantly impact its overall functionality. The design could be improved by adding shunt resistors to measure currents across components, which would provide a more comprehensive understanding of the system's performance and losses.
