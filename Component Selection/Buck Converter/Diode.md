@@ -156,7 +156,7 @@ $$ P_{\text{total}} = P_{\text{cond}} + P_{\text{bloq}} $$
   </tbody>
 </table>
 
-With the necessary information gathered, it is now possible to calculate the junction temperature of the diode without the presence of a heatsink. The table below contains the required information for the calculation, which was taken from figure X. The equation that gives the junction temperature is exactly the same as the one used for the MOSFET.
+With the necessary information gathered, it is now possible to calculate the junction temperature of the diode without the presence of a heatsink. The table below contains the required information for the calculation. The equation that gives the junction temperature is exactly the same as the one used for the MOSFET.
 
 <table align="center">
   <thead>
