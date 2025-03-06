@@ -14,6 +14,8 @@ The selected capacitors are from Nichicon, and below is an image from the datash
 
 It is observed that a Nichicon 10 µF 400V capacitor can withstand an RMS current of 72 mA, which is lower than the calculated value. Therefore, multiple capacitors are required to handle the effective current. Since three capacitors are being used in parallel, the maximum current capacity of the combination is 216 mA, which is more than sufficient even after applying the safety coefficient.
 
+Although the voltage on the capacitor with the safety coefficient is slightly higher than the component's voltage, it will still be used, as it is much higher than the worst-case voltage without the safety coefficient.
+
 Unfortunately, the datasheet does not provide information on the equivalent series resistance (ESR) for capacitors with a nominal voltage above 100V. Therefore, for loss calculations, the ESR value for a 10 µF 100V capacitor will be used, which is 1.8 Ω.
 
 Since the three capacitors are in parallel, the current will be evenly divided among them, and each capacitor will experience the same power dissipation. The formulas for this calculation have already been discussed in buck converter section.
