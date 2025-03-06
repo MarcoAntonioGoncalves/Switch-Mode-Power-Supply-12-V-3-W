@@ -31,7 +31,7 @@ I would like to give credit to the book [Projeto de Fontes Chaveadas](https://iv
 
 ## Specifications
 
-<table style="margin-left:auto; margin-right:auto;">
+<table align="center">
   <thead>
     <tr>
       <th><strong>Specification</strong></th>
