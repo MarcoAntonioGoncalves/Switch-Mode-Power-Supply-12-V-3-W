@@ -14,7 +14,7 @@ I would like to give credit to the book [Projeto de Fontes Chaveadas](https://iv
    - Start with the theoretical section to understand the main concepts.
 
 2. **Simulations**
-   - Review the simulations, which provide a comparison between theoretical and simulated results.
+   - Review the simulations made in PSIM.
 
 3. **Component Selection**
    - After the simulations, analyze the component selection.
@@ -29,22 +29,87 @@ I would like to give credit to the book [Projeto de Fontes Chaveadas](https://iv
      - 3D image of the PCB
    - These files are especially useful for those interested in building their own power supply.
 
-
 ## Specifications
 
-| **Specification**                   | **Description**             | **Unit**  |
-|------------------------------------|-----------------------------|---------|
-| **Minimum Input Voltage**          | 110                         | V       |
-| **Maximum Input Voltage**          | 233                         | V       |
-| **Minimum Peak Voltage**           | 155.56                      | V       |
-| **Maximum Peak Voltage**           | 329.51                      | V       |
-| **Grid Frequency**                 | 60                          | Hz      |
-| **Output Power**                   | 3                           | W       |
-| **Output Voltage**                 | 12                          | V       |
-| **Efficiency**                     | 80                          | %       |
-| **Rectifier Ripple**               | 5                           | %       |
-| **Switching Frequency**            | 66                          | kHz     |
-| **Inductor Ripple**                | 0.25                        | %       |
-| **Output Voltage Variation**       | 0.01                        | V       |
-| **Safety Coefficient**             | 1.25                        | -       |
-| **Ambient Temperature**            | 50                          | ºC      |
+<table style="margin-left:auto; margin-right:auto;">
+  <thead>
+    <tr>
+      <th><strong>Specification</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Unit</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Minimum Input Voltage</td>
+      <td>110</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>Maximum Input Voltage</td>
+      <td>233</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>Minimum Peak Voltage</td>
+      <td>155.56</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>Maximum Peak Voltage</td>
+      <td>329.51</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>Grid Frequency</td>
+      <td>60</td>
+      <td>Hz</td>
+    </tr>
+    <tr>
+      <td>Output Power</td>
+      <td>3</td>
+      <td>W</td>
+    </tr>
+    <tr>
+      <td>Output Voltage</td>
+      <td>12</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>Efficiency</td>
+      <td>80</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <td>Rectifier Ripple</td>
+      <td>5</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <td>Switching Frequency</td>
+      <td>66</td>
+      <td>kHz</td>
+    </tr>
+    <tr>
+      <td>Inductor Ripple</td>
+      <td>0.25</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <td>Output Voltage Variation</td>
+      <td>0.01</td>
+      <td>V</td>
+    </tr>
+    <tr>
+      <td>Safety Coefficient</td>
+      <td>1.25</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Ambient Temperature</td>
+      <td>50</td>
+      <td>ºC</td>
+    </tr>
+  </tbody>
+</table>
+
